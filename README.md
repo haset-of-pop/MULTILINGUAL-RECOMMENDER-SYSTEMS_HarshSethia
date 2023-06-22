@@ -2,6 +2,9 @@
 It consists of two main components:  User sessions: List of products that a user has engaged with in chronological order Product attributes. Various details like product title, price in local currency, brand, color, and description.
 This repository contains code and data for building a recommendation model using a transformer-based architecture for multiple locales. The model utilizes word embeddings generated from language models trained on different locales to improve the quality of recommendations. The process of prediction involves several steps, as described below:
 
+TEST and TRAIN Datasets at - https://www.aicrowd.com/challenges/amazon-kdd-cup-23-multilingual-recommendation-challenge/problems/task-1-next-product-recommendation/dataset_files
+
+
 # Data Preprocessing and Word Embedding Training
 The preprocessed training data is loaded from the "products_train_processed.csv" file.
 The data is filtered to include only the records for a specific locale, such as the UK.
